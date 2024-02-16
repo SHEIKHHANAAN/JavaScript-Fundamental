@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: red;
+  }
+  .container {
+      text-align: center;
+      margin: 200px 120px ;
+      background-color: #fff;
+      padding: 20px 0;
+      border-radius: 10px;
+    }
+    
+    h1, h2 {
+      color: #333;
+    }
+    
+    button {
+      padding: 5px 10px;
+      margin-top: 20px;
+    }
+    
+    #itemList {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    #itemList li {
+      margin-bottom: 5px;
+    }
+    

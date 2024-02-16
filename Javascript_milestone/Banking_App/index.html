@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banking Application</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Banking Application</h1>
+    <form id="transactionForm">
+      <label for="nameInput">Customer Name:</label>
+      <input type="text" id="nameInput" required>
+      <label for="amountInput">Transaction Amount:</label>
+      <input type="number" id="amountInput" step="0.01" required>
+      <select id="transactionType">
+        <option value="deposit">Deposit</option>
+        <option value="withdrawal">Withdrawal</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

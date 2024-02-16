@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: violet;
+  }
+  .container {
+    background-color: #fff;
+    text-align: center;
+    margin: 130px 190px;
+    padding: 15px 0;
+    border-radius: 10px;
+  }
+  
+    h1, h2 {
+      color: #333;
+    }
+    
+    form {
+      margin-top: 20px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    input {
+      padding: 5px;
+    }
+    
+    button {
+      padding: 5px 10px;
+    }
+    
+    #itemList {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    #itemList li {
+      margin-bottom: 5px;
+      font-size: large;
+      font-weight: bolder;
+    }
+    
+    #cart {
+      margin-top: 20px;
+    }
+    

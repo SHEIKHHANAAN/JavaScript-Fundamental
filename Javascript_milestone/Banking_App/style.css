@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: grey;
+  }
+  .container {
+      text-align: center;
+      margin-top: 50px;
+      background-color: #fff;
+      margin: 200px 150px;
+      padding: 20px 20px;
+      border-radius: 10px;
+    }
+    
+    h1 {
+      color: #333;
+    }
+    
+    form {
+      margin-top: 20px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    input, select {
+      padding: 5px;
+      margin-top: 3px;
+    }
+    
+    button {
+      padding: 5px 10px;
+      background-color: #0000ff;
+      color: #fff;
+      border-radius: 2px;
+    }
+    
+    #result {
+      margin-top: 20px;
+    }
+    

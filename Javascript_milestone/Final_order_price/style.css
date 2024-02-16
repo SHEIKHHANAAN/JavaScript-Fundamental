@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: grey;
+  }
+  
+  .container {
+      text-align: center;
+      margin: 190px 150px;
+      background-color: #fff;
+      padding: 20px 0;
+      border-radius: 20px;
+    }
+    
+    h1, h2 {
+      color: #333;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    input, button {
+      padding: 5px;
+    }
+    
+    #itemList {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    #itemList li {
+      margin-bottom: 5px;
+    }
+    
